@@ -1,0 +1,15 @@
+Dockerfile
+docker-compose.yml
+.git
+docker/mailserver
+docker/mongodb
+docker/node-logs
+docker/redis
+documentation
+node_modules
+logs
+build-client
+build-info
+build-server
+/*.env
+*.md
