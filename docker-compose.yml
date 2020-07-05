@@ -4,6 +4,8 @@ services:
   node:
     container_name: test_container
     restart: always
+    ports:
+      - '8080:8080'
     build:
       context: .
       dockerfile: Dockerfile
