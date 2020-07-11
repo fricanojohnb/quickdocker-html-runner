@@ -9,3 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - ./public-html/src/index.html:/var/www/html/src/index.html
+
+# https://medium.com/@zhao.li/how-to-understand-working-with-files-in-containers-using-docker-compose-6d8e68ed790b
